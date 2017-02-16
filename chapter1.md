@@ -1,4 +1,6 @@
-# Jenkins {#jenkins}
+# Jenkins Introduction {#jenkins}
+
+---
 
 ### Install Jenkins {#install-jenkins}
 
@@ -26,7 +28,7 @@ For example,`java -jar jenkins.war --httpPort=12345`
 
       Click on the`install`button
 
-1. After the installation is finished, you can configure jobs to use existing Github projects.
+3. After the installation is finished, you can configure jobs to use existing Github projects.
 
 ### Create Jobs {#create-jobs}
 
