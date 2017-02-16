@@ -4,24 +4,29 @@
 
 1. Download the latest Jenkins war file  [here](http://mirrors.jenkins-ci.org/war/latest/jenkins.war).
 
+### References {#references}
+
+[Jenkins Website](https://jenkins-ci.org/)
+
+[Install Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins)
+
+[Start and Configure Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Starting+and+Accessing+Jenkins)
+
 ### Run and Configure Jenkins {#install-jenkins}
 
 1. Run Jenkins with the command`java -jar jenkins.war`. To change the default port of the web interface of Jenkins, use the argument`--httpPort=$port`.  
 
+For example,`java -jar jenkins.war --httpPort=12345`
 
-   For example,`java -jar jenkins.war --httpPort=12345`
+1. Open url`http://server:port`in browser to configure Jenkins. In the last example, it is`http://localhost:12345`.
 
-2. Open url`http://server:port`in browser to configure Jenkins. In the last example, it is`http://localhost:12345`.
+2. Download and install plugins following the steps below.
 
-3. Download and install plugins following the steps below.
-
-   1. 2. 3. Switch to the`available`tag and search for the plugin. In this example, the`Github Project`plugin is installed to integrate Jenkins with projects on github.
-
-
+   1. 1. 1. Switch to the`available`tag and search for the plugin. In this example, the`Github Project`plugin is installed to integrate Jenkins with projects on github.
 
       Click on the`install`button
 
-   4. After the installation is finished, you can configure jobs to use existing Github projects.
+1. After the installation is finished, you can configure jobs to use existing Github projects.
 
 ### Create Jobs {#create-jobs}
 
@@ -44,11 +49,5 @@ In this simple example, a job is created to compile a c program and run it.
 
    A new successfully built record should appear in the project's build history.
 
-### References {#references}
 
-[Jenkins Website](https://jenkins-ci.org/)
-
-[Install Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins)
-
-[Start and Configure Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Starting+and+Accessing+Jenkins)
 
