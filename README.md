@@ -1,3 +1,4 @@
-# My Awesome Book
+# Jenkins {#jenkins}
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This is a book on Jenkins CI Server. I had faced lot of problems at the time of learning jenkins. However i have consolidated and made it a readable.
+
