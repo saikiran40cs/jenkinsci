@@ -2,5 +2,5 @@
 
 ---
 
-This chapter deals with Jenkins Integrations
+This chapter deals with Jenkins Integrations with SonarQube,SVN ,...
 
