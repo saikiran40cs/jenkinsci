@@ -36,7 +36,7 @@ If you don't see a drop down list with all available SonarQube Scanner versions 
 _**Step 4:**_**Job Configuration**
 
 1. **Configure** the project, and scroll down to the **Build** section.
-2. Add the _Execute the SonarQube Scanner \_build step to your build_.\_
+2. Add the _Execute the SonarQube Scanner -&gt;build step to your build_.
 3. Configure the SonarQube analysis properties. You can either point to an existing _**sonar-project.properties**_ file or set the analysis properties directly in the **Analysis properties ** field.
 
 ![](https://nsaikiran.gitbooks.io/sonarqube/content/assets/SonarQube_JenkinsInstantCodeReviewConfig_Jobs.JPG)
