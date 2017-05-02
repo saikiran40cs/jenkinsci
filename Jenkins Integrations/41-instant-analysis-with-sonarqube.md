@@ -1,5 +1,7 @@
 ## Instant Analysis with SonarQube {#during-analysis}
 
+---
+
 _**Step1:**_**Set environment variables for SONAR\_RUNNER\_HOME**
 
 Open your environment variables window. Click new button in System variables section.
