@@ -9,6 +9,6 @@
 * [3. How to use Jenkins](how-to-use-jenkins.md)
   * [3.1 Create jobs](how-to-use-jenkins/2.1-create-jobs.md)
   * 3.2 Run jobs
-* [4. Jenkins Integrations](test4.md)
-  * [4.1 Instant Analysis with SonarQube](test4/41-instant-analysis-with-sonarqube.md)
+* [4. Jenkins Integrations](Jenkins Integrations.md)
+  * [4.1 Instant Analysis with SonarQube](Jenkins Integrations/41-instant-analysis-with-sonarqube.md)
 
