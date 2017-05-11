@@ -14,7 +14,7 @@ Open your environment variables window. Click new button in System variables sec
 
    Example:- variable name:- PATH variable value:- %SONAR\_RUNNER\_HOME%\bin;
 
-_**Step 2:**_[**Install the SonarQube Scanner for Jenkins via the Jenkins Update Center**](https://plugins.jenkins.io/sonar)
+_**Step 2: **_**Install the **[**SonarQube Scanner**](https://plugins.jenkins.io/sonar)** for Jenkins via the Jenkins Update Center**
 
 1. Configure your SonarQube server\(s\)
 2. Log into Jenkins as an administrator and go to **Manage Jenkins &gt; Configure System**: Scroll down to the **SonarQube configuration** section, click on **Add SonarQube**, and add the values you're prompted for.
