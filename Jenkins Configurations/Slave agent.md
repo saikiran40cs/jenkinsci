@@ -8,7 +8,7 @@ Jenkins supports running distributed builds, so you can run your jobs on remote 
 
 To connect to a node via Java Web Start, you will need to launch the Jenkins agent on the slave machine. To do this, log on to your slave computer and open the[http://MasterName:8080/computer/NodeName/web](http://MasterName:8080/computer/NodeName/web) page in the browser.
 
-![](https://nsaikiran.gitbooks.io/jenkins/content/assets/slave-page.png)
+![](/assets/slave.png)
 
 Then, click Launch, or launch the slave agent using the command line provided by Jenkins.
 
