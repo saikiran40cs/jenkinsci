@@ -13,5 +13,5 @@
   * [3.2 Run jobs](how-to-use-jenkins/run-jobs.md)
 * [4. Jenkins Integrations](Jenkins Integrations.md)
   * [4.1 Analysis with SonarQube using Jenkins](Jenkins Integrations/41-instant-analysis-with-sonarqube.md)
-  * [4.2 Silk Central Result Anlaysis](Jenkins Integrations/42-silk-central-result-anlaysis.md)
+  * [4.2 SCTM Result Analysis with Jenkins](Jenkins Integrations/42-silk-central-result-anlaysis.md)
 
