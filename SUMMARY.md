@@ -6,6 +6,7 @@
   * [1.2 Installation of jenkins on Tomcat](chapter1/12-installation-of-jenkins-on-tomcat.md)
 * [2. Configure Jenkins](Jenkins Configurations.md)
   * [2.1 Configure Jenkins Slave ](Jenkins Configurations/Slave agent.md)
+  * [2.2 Configure SonarQube with Jenkins](Jenkins Configurations/22-configure-sonarqube-with-jenkins.md)
 * [3. How to use Jenkins](how-to-use-jenkins.md)
   * [3.1 Create jobs](how-to-use-jenkins/create-jobs.md)
   * [3.2 Run jobs](how-to-use-jenkins/run-jobs.md)
