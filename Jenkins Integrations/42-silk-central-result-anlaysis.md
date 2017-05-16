@@ -60,11 +60,15 @@
 
    ![](/assets/SCTM_9.jpg)
 
-
-
 **Note:**In this case the build was "1", you can define which build number is used in the Advanced settings for the SCTM build step, see point 4 above.
 
 Now if you run a new build in Jenkins for this job the SCTM execution will automatically be executed.
+
+Current version of the plugin supports to view the SCTM results in jenkins as well but we must add post build step to the current job.
+
+![](/assets/SCTM_Postbuild.PNG) Now save the job and run to view it in action.
+
+![](/assets/SCTM_Results.PNG)
 
 
 
