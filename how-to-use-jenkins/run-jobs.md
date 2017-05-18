@@ -1,5 +1,7 @@
 ### Run Jobs of the created project {#create-jobs}
 
+---
+
 **Step 1**− Once the build is scheduled, it will run. The following Build history section shows that a build is in progress.
 
 ![](/assets/build_history.jpg)
@@ -13,8 +15,6 @@
 ![](/assets/console_output1.jpg)
 
 ![](/assets/console_output2.jpg)
-
-
 
 Apart from the steps shown above there are just so many ways to create a build job, the options available are many, which what makes Jenkins such a fantastic continuous deployment/continuous integration tool.
 
