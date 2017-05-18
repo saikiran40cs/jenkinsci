@@ -8,9 +8,9 @@ There are two ways to accomplish this
 
 2. Using Multi- Configuration project + Axis plug-in
 
-1. **Node Label Parameter plug-in :** Install the plug-in, under 'this build is parameterized option', you will find an option for specifying a list of Nodes as a drop down, and then to execute them serially or execute them on multiple nodes parallely, when you select Build option.
+3. **Node Label Parameter plug-in :** Install the plug-in, under 'this build is parameterized option', you will find an option for specifying a list of Nodes as a drop down, and then to execute them serially or execute them on multiple nodes parallely, when you select Build option.
 
-2. **Multi-Configuration and Axis Plug-in :** Install both these plug-ins. Create Multi-configuration Jenkins job and then you can create a virtual matrix where the job can run the job on all the nodes identified by a common label. \(You need to specify the common label name in all the nodes created \(Manage nodes --&gt; Node name --&gt; Configure\)\)
+4. **Multi-Configuration and Axis Plug-in :** Install both these plug-ins. Create Multi-configuration Jenkins job and then you can create a virtual matrix where the job can run the job on all the nodes identified by a common label. \(You need to specify the common label name in all the nodes created \(Manage nodes --&gt; Node name --&gt; Configure\)\)
 
 > Restrict where this project can be run
 >
@@ -28,7 +28,7 @@ Below is the process to run a single job using Node Label Parameter plug-in
 
 ![](/assets/MultiSlave_SingleJobconfig_plugin.jpg)
 
-
+Save the Job Configuration and Build the Job according to your requirement.
 
 **Step 1**− If multi node selection was enabled, you get the chance to select multiple nodes to run the job on. The job will then be executed on each of the nodes, one after the other or concurrent - depending on the configuration.
 
