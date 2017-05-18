@@ -1,28 +1,29 @@
-# Run Jenkins in seconds
+# Jenkins Basics {#jenkins-documentation}
 
 ---
 
-1. Run Jenkins with the command`java -jar jenkins.war`. 
-2. To change the default port of the web interface of Jenkins, use the argument`--httpPort=$port`.  
+Jenkins is a self-contained, open source automation server which can be used to automate all sorts of tasks such as building, testing, and deploying software. Jenkins can be installed through native system packages, Docker, or even run standalone by any machine with the Java Runtime Environment installed.
 
-For example,`java -jar jenkins.war --httpPort=12345`
+Currently there are two flavours of Jenkins.
 
-It takes hardly a minute to run as a service for current user and you can run whenever required without any administrative rights.
+1. [Jenkins - Open Source Version](https://jenkins.io/)
+2. [CloudBees Jenkins Enterprise Edition](https://www.cloudbees.com/products/cloudbees-jenkins-enterprise)
 
-1. Open url`http://server:port`in browser to configure Jenkins. In the last example, it is`http://localhost:12345`.
+Jenkins Pipeline\(One of the important feature\) is a suite of plugins which supports implementing and integrating continuous delivery pipelines into Jenkins. Pipeline provides an extensible set of tools for modeling simple-to-complex delivery pipelines "as code".
 
-2. Download and install plugins following the steps below.
+A[`Jenkinsfile`](https://jenkins.io/doc/book/pipeline/jenkinsfile)is a text file that contains the definition of a Jenkins Pipeline and is checked into source control.This is the foundation of "Pipeline-as-Code"; treating the continuous delivery pipeline a part of the application to be version and reviewed like any other code. Creating a`Jenkinsfile `provides a number of immediate benefits:
 
-   1. Switch to the`available`tag and search for the plugin. In this example, the`Github Project`plugin is installed to integrate Jenkins with projects on github.
-      Click on the`install`button
+* Automatically create Pipelines for all Branches and Pull Requests
 
-3. After the installation is finished, you can configure jobs to use existing Github projects.
+* Code review/iteration on the Pipeline
 
-### Stop Jenkins
+* Audit trail for the Pipeline
 
-To stop the jenkins which has been started from the command prompt we need to type keys with a combination &lt;Ctrl+C&gt; and type 'Y' to stop the service.
+* Single source of truth for the Pipeline, which can be viewed and edited by multiple members of the project.
 
-> Remember the settings of jenkins will not be saved unless you install it as a service.
+While the syntax for defining a Pipeline, either in the web UI or with a`Jenkinsfile`, is the same, it’s generally considered best practice to define the Pipeline in a`Jenkinsfile`and check that in to source control.
+
+##  {#guided-tour}
 
 
 
