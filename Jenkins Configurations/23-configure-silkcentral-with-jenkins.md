@@ -16,13 +16,13 @@ The first thing that needs to be done is to install the SCTM Executor plugin int
 
 ![](/assets/SCTM_Installation_1.jpg)
 
-6. Once Jenkins has restarted, click on the "Installed" tab and you will see that the SCTMExecutor plugin is now installed. Then check the box beside the SCTMExecutor plugin to enable it
+1. Once Jenkins has restarted, click on the "Installed" tab and you will see that the SCTMExecutor plugin is now installed. Then check the box beside the SCTMExecutor plugin to enable it
 
-7. Click on the "Restart Once No Jobs Are Running" button
+2. Click on the "Restart Once No Jobs Are Running" button
 
 ![](/assets/SCTM_Installation_2.jpg)
 
-8. This completes the installation of the SCTM Executor plugin.
+1. This completes the installation of the SCTM Executor plugin.
 
 ## Configure Jenkins in order to connect to your SCTM installation
 
@@ -34,7 +34,7 @@ Perform the below steps to connect to your SCTM installation
 
 2. Scroll down to the "_**SilkCentral TestManager Configuration**_" section and enter your SCTM installation details. Click on the "_**Test Connection**_" button to ensure you can connect to SCTM.
 
-![](/assets/SCTM_ConfigurationSettings.PNG)
+![](/assets/SCTM_ConfigurationSettings.PNG)3. This completes setting up the connection from Jenkins to SCTM.
 
-3. This completes setting up the connection from Jenkins to SCTM.
+
 

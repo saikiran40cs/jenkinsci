@@ -1,8 +1,8 @@
-## SCTM Result Analysis with Jenkins {#during-analysis}
+## TestNG Result Analysis with Jenkins {#during-analysis}
 
 ---
 
-> _**Pre-requisite is to configure **_[_**SilkCentral with Jenkins**_](https://nsaikiran.gitbooks.io/jenkins/content/Jenkins%20Configurations/23-configure-silkcentral-with-jenkins.html)
+> _**Pre-requisite is to configure TestNG with Jenkins**_
 
 ### **Job Configuration**
 
@@ -67,6 +67,4 @@ Now if you run a new build in Jenkins for this job the SCTM execution will autom
 Current version of the plugin supports to view the SCTM results in jenkins as well but we must add post build step to the current job.
 
 ![](/assets/SCTM_Postbuild.PNG) Now save the job and run to view it in action.
-
-![](/assets/SCTM_Results.PNG)
 
