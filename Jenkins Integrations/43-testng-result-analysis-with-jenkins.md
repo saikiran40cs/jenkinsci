@@ -2,7 +2,7 @@
 
 ---
 
-> _**Pre-requisite is to configure TestNG with Jenkins**_
+> _**Pre-requisite is to configure **_[_**TestNG with Jenkins**_](https://nsaikiran.gitbooks.io/jenkins/content/Jenkins%20Configurations/24-configure-testng-with-jenkins.html)
 
 ### **Job Configuration**
 
@@ -12,23 +12,23 @@
 
    1. Configure your Job settings as required. To add a SCTM build step, scroll down to the "Build" section and select "SilkCentral Test Manager Execution" from the "Add Build step" drop down.
 
-   ![](/assets/SCTM_2.jpg)
+
 
    1. Enter the SCTM Execution Plan ID you wish to execute and also the SCTM Project ID that contains this execution plan.
 
-   ![](/assets/SCTM_3.jpg)
+
 
    1. Click the "Advanced" button to configure other options when running the SCTM execution plan such as continue on error, collect results, build numbers to be used. Click "Save" to save the job.
 
-   ![](/assets/SCTM_4.jpg)
+
 
    1. Once save click on the Workspace link for the job you just created.
 
-   ![](/assets/SCTM_5.jpg)
+
 
    1. You will receive an error stating that the project does not have any Workspaces, this is because no builds have been performed yet. To do this click on the "Run a build" link.
 
-   ![](/assets/SCTM_6.jpg)
+
 
    1. This will start the SCTM execution and you can see the pending status on the Jenkins project page.
 
@@ -54,17 +54,13 @@
 
    3. Once the execution has completed you will see the screen below.
 
-   ![](/assets/SCTM_8.jpg)
+
 
    1. If you then go to the Execution Plan in SCTM you will see that it was executed and the build information has been brought over from Jenkins.
-
-   ![](/assets/SCTM_9.jpg)
 
 **Note:**In this case the build was "1", you can define which build number is used in the Advanced settings for the SCTM build step, see point 4 above.
 
 Now if you run a new build in Jenkins for this job the SCTM execution will automatically be executed.
 
-Current version of the plugin supports to view the SCTM results in jenkins as well but we must add post build step to the current job.
 
-![](/assets/SCTM_Postbuild.PNG) Now save the job and run to view it in action.
 
