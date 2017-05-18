@@ -13,7 +13,7 @@
 * [3. How to use Jenkins](how-to-use-jenkins.md)
   * [3.1 Create jobs](how-to-use-jenkins/create-jobs.md)
   * [3.2 Run jobs](how-to-use-jenkins/run-jobs.md)
-  * 3.3 Run Single Job Parallely in Multiple slaves
+  * [3.3 Run Single Job Parallely in Multiple slaves](how-to-use-jenkins/33-run-single-job-parallely-in-multiple-slaves.md)
 * [4. Jenkins Integrations](Jenkins Integrations.md)
   * [4.1 Analysis with SonarQube using Jenkins](Jenkins Integrations/41-instant-analysis-with-sonarqube.md)
   * [4.2 SCTM Result Analysis with Jenkins](Jenkins Integrations/42-silk-central-result-anlaysis.md)
