@@ -18,4 +18,6 @@
   * [4.1 Analysis with SonarQube using Jenkins](Jenkins Integrations/41-instant-analysis-with-sonarqube.md)
   * [4.2 SCTM Result Analysis with Jenkins](Jenkins Integrations/42-silk-central-result-anlaysis.md)
   * [4.3 TestNG Result Analysis with Jenkins](Jenkins Integrations/43-testng-result-analysis-with-jenkins.md)
+* [5. Jenkins Advanced](5-jenkins-advanced.md)
+  * [5.1Jenkins Challenges](5-jenkins-advanced/51-jenkins-challenges.md)
 
